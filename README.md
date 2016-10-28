@@ -1,6 +1,11 @@
 Algorithms [![Build Status](https://travis-ci.org/pedrovgs/Algorithms.svg?branch=master)](https://travis-ci.org/pedrovgs/Algorithms)
 ==========
 
+###note:
+in order to use the maven to invoke javaagent, please copy the file agent.jar compiled from coverage project https://github.com/exinton/automated-coverage-collection-tool to the / folder of the project.
+Then run maven test of the algorithm project, javaagent will load all the class file to ASM method visitor.
+
+
 This repository contains my solution for some common algorithms. I've created this repository to learn about algorithms and improve solving different common computer science problems. I'll try to add more solutions if I have time :)
 
 Each solved problem has a program written in Java. Every solution is tested and some problems contains more than one solution with different implementations.
